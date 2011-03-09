@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.5'
+gem 'haml-rails'
+gem 'devise', :git => "git://github.com/plataformatec/devise.git"
+gem 'action_sms', :git => "git://github.com/dwilkie/action_sms.git"
 
 group :development do
   gem 'sqlite3-ruby', :require => 'sqlite3'
@@ -12,7 +15,7 @@ group :development, :test do
 end
 
 group :test do
-  gem "test-unit"
+  gem 'test-unit'
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'factory_girl_rails'

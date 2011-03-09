@@ -1,0 +1,66 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=UTF-8
+Date: Wed, 09 Mar 2011 14:52:54 GMT
+Expires: Thu, 10 Mar 2011 14:52:54 GMT
+Cache-Control: public, max-age=86400
+Vary: Accept-Language
+Server: mafe
+X-XSS-Protection: 1; mode=block
+Transfer-Encoding: chunked
+
+{
+  "status": "OK",
+  "results": [ {
+    "types": [ "sublocality", "political" ],
+    "formatted_address": "phường Phạm Ngũ Lão, District 1, Ho Chi Minh City, Vietnam",
+    "address_components": [ {
+      "long_name": "phường Phạm Ngũ Lão",
+      "short_name": "phường Phạm Ngũ Lão",
+      "types": [ "sublocality", "political" ]
+    }, {
+      "long_name": "Ho Chi Minh City",
+      "short_name": "HCM",
+      "types": [ "locality", "political" ]
+    }, {
+      "long_name": "District 1",
+      "short_name": "District 1",
+      "types": [ "administrative_area_level_2", "political" ]
+    }, {
+      "long_name": "Ho Chi Minh City",
+      "short_name": "HCMC",
+      "types": [ "administrative_area_level_1", "political" ]
+    }, {
+      "long_name": "Vietnam",
+      "short_name": "VN",
+      "types": [ "country", "political" ]
+    } ],
+    "geometry": {
+      "location": {
+        "lat": 10.7671492,
+        "lng": 106.6917692
+      },
+      "location_type": "APPROXIMATE",
+      "viewport": {
+        "southwest": {
+          "lat": 10.7561875,
+          "lng": 106.6757618
+        },
+        "northeast": {
+          "lat": 10.7781105,
+          "lng": 106.7077766
+        }
+      },
+      "bounds": {
+        "southwest": {
+          "lat": 10.7642046,
+          "lng": 106.6844150
+        },
+        "northeast": {
+          "lat": 10.7715897,
+          "lng": 106.6983549
+        }
+      }
+    },
+    "partial_match": true
+  } ]
+}
